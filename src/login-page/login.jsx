@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import './login.css';
-import loginImage from './images/login.png';
+import loginImage from './images/login.png'; //Login background image
 
 const Login = () => {
   const initialValues = { username: "", email: "", password: "" };
