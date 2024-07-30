@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import './home.css';
 import homeImage from './images/home.png';
+import classesImage from './images/classes.png';
+import teachersImage from './images/teachers.png';
 import studentImage from './images/students.png';
 import dashboardImage from './images/dashboard.png';
+import attendanceImage from './images/attendance.png';
 import { FaBell, FaSignOutAlt, FaHome, FaTachometerAlt, FaChalkboardTeacher, FaUsers, FaClipboardList, FaUser } from 'react-icons/fa'; 
 
 const Home = () => {
@@ -24,10 +27,10 @@ const Home = () => {
   const images = {
     Home: homeImage,
     Dashboard: dashboardImage,
-    Classes: homeImage,
-    Teachers: homeImage,
+    Classes: classesImage,
+    Teachers: teachersImage,
     Students: studentImage,
-    Attendance: homeImage,
+    Attendance: attendanceImage,
   };
 
   const menuItems = [
